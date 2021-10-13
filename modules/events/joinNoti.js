@@ -38,7 +38,7 @@ Xin cảm ơn đã đọc...UwU
 
 			const threadData = global.data.threadData.get(parseInt(threadID)) || {};
 			const path = join(__dirname, "cache", "joinGif");
-			const pathGif = join(path, `chao.mp4`);
+			const pathGif = join(path, `hi.gif`);
 
 			var mentions = [], nameArray = [], memLength = [], i = 0;
 			
