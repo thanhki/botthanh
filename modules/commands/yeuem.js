@@ -13,7 +13,7 @@ module.exports.handleEvent = function({ api, event }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("yêu em")==0 || (event.body.indexOf("Yêu em")==0)) {
 		var msg = {
-				body: "thương thương",
+				body: "Love you ❤️❤️",
 				attachment: fs.createReadStream(__dirname + `/noprefix/yêuem.mp4`)
 			}
 			return api.sendMessage(msg, threadID, messageID);
